@@ -1,5 +1,9 @@
 import Layout from './components/Layout/Layout';
 import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Delivery from './pages/Delivery';
 
 
 export default function App() {
@@ -8,10 +12,10 @@ export default function App() {
     <div className="App">
        <Layout>
        <Routes>
-          <Route path="/" element={<h2>Home</h2>} />
-          <Route path="/about" element={<h2>About</h2>} />
-          <Route path="/contact" element={<h2>Contact</h2>} />
-          <Route path="/delivery" element={<h2>Delivery</h2>} />
+          <Route path="/" element={<Home/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/delivery" element={<Delivery/>} />
     
         </Routes>
        </Layout>
