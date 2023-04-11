@@ -1,10 +1,7 @@
-export default function Product(){
-  return(
+export default function Product() {
+  return (
     <div className="Product">
-      <h1>ff
-      </h1>
-      
-
+      <h1>ff</h1>
     </div>
   );
 }
