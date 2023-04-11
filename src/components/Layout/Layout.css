@@ -1,10 +1,10 @@
-.Layout{
+.Layout {
   max-width: 789px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
-.Layout header{
+.Layout header {
   background-color: ;
   flex-basis: 100%;
   flex-grow: 0;
@@ -12,14 +12,14 @@
 }
 
 .Layout aside {
-  background-color:;
+  background-color: ;
   flex: 20% 0 0;
 }
-.Layout main{
+.Layout main {
   flex: 80% 1 1;
   background-color: ;
 }
-.Layout footer{
+.Layout footer {
   flex: 100% 0 0;
   background-color: ;
 }
