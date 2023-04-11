@@ -4,7 +4,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Delivery from './pages/Delivery';
-
+import Wholesale from './pages/Wholesale';
+import Product from './pages/Product';
 
 export default function App() {
 
@@ -16,6 +17,8 @@ export default function App() {
           <Route path="/about" element={<About/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/delivery" element={<Delivery/>} />
+          <Route path="/wholesale" element={<Wholesale/>}/>
+          <Route path="/product" element={<Product/>}/>
     
         </Routes>
        </Layout>
