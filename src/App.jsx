@@ -14,6 +14,10 @@ import { createContext, useEffect, useState } from "react";
 export const AppContext = createContext({
   categories: [],
   products: [],
+
+//корзина
+cart: {},
+setCart: ()=>{}
 });
 
 export default function App() {
@@ -61,7 +65,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <AppContext.Provider value={{ categories, products }}>
+      <AppContext.Provider value={{ categories, products, cart, setCart }}>
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
