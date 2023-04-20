@@ -6,6 +6,7 @@ import { categoryCollection } from "../../firebase";
 import "./CategoryList.css";
 
 export default function CategoryList() {
+  //
   const { categories } = useContext(AppContext);
 
   const output = categories.map((category) => (

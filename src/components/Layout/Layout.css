@@ -9,6 +9,9 @@
   flex-basis: 100%;
   flex-grow: 0;
   flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .Layout aside {

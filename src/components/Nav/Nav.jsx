@@ -15,9 +15,7 @@ export default function Nav() {
           <NavLink to="/contact">Contact</NavLink>
         </li>
 
-        <li>
-          <NavLink to="/product">Product</NavLink>
-        </li>
+        
         <li>
           <NavLink to="/wholesale">Wholesale</NavLink>
         </li>
