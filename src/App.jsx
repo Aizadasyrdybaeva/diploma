@@ -4,7 +4,12 @@ import Home from "./pages/Home";
 import Category from "./pages/Category";
 import { createContext, useEffect, useState } from "react";
 import { getDocs } from "firebase/firestore";
-import { categoryCollection, onAuthChange, orderCollection, productCollection } from "./firebase";
+import {
+  categoryCollection,
+  onAuthChange,
+  orderCollection,
+  productCollection,
+} from "./firebase";
 import Cart from "./pages/Cart";
 import NotFound from "./pages/NotFound";
 import Product from "./pages/Product";
@@ -14,7 +19,7 @@ import Orders from "./pages/Orders.jsx";
 export const AppContext = createContext({
   categories: [],
   products: [],
-  orders:[],
+  orders: [],
 
   // корзина
   cart: {},
@@ -26,7 +31,7 @@ export const AppContext = createContext({
 export default function App() {
   const [categories, setCategories] = useState([]);
   const [products, setProducts] = useState([]);
-  const[orders, setOrders] = useState([]);
+  const [orders, setOrders] = useState([]);
 
   // состояние которое хранит информацию пользователя
   const [user, setUser] = useState(null);
@@ -64,6 +69,24 @@ export default function App() {
     });
 
     // получить продукты из списка продуктов
+    getDocs(productCollection).then((snapshot) => {
+      // продукты будут храниться в snapshot.docs
+
+      // создать массив для продуктов
+      const newProducts = [];
+      // заполнить массив данными из списка продвук
+      snapshot.docs.forEach((doc) => {
+        // doc = продукт
+        const product = doc.data();
+        product.id = doc.id;
+
+        newProducts.push(product);
+      });
+      // задать новый массив как состояние комапо
+      setProducts(newProducts);
+    });
+
+    // получить продукты из списка продуктов
     getDocs(orderCollection).then((snapshot) => {
       // продукты будут храниться в snapshot.docs
 
@@ -81,14 +104,16 @@ export default function App() {
       setOrders(newOrders);
     });
 
-    onAuthChange(user => {
+    onAuthChange((user) => {
       setUser(user);
     });
   }, []);
 
   return (
     <div className="App">
-      <AppContext.Provider value={{ categories, products, cart, setCart, user, orders }}>
+      <AppContext.Provider
+        value={{ categories, products, cart, setCart, user, orders }}
+      >
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />

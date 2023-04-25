@@ -4,7 +4,6 @@ import { AppContext } from "../App";
 import ProductList from "../components/ProductList/ProductList";
 import NotFound from "./NotFound";
 
-
 export default function Category() {
   //деструктизация
   const { params } = useMatch("/category/:path");
@@ -12,11 +11,9 @@ export default function Category() {
   //простой метод
   // const match = useMatch("/category/:path");
   // match.params.path;
-  
-  //найти категорию 
-  const category = categories.find(
-    category => params.path === category.path
-  );
+
+  //найти категорию
+  const category = categories.find((category) => params.path === category.path);
   /* function (category) {
     if (params.path === category.path) {
       return true;
@@ -26,13 +23,13 @@ export default function Category() {
     }
   }
   */
-if (!category) {
-  return <NotFound />
-}
+  if (!category) {
+    return <NotFound />;
+  }
 
   return (
     <div className="Category">
-      <h1>{category? category.name: "Loading..."}</h1>
+      <h1>{category ? category.name : "Loading..."}</h1>
       <ProductList category={category} />
     </div>
   );
