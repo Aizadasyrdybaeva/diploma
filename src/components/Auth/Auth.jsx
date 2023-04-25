@@ -2,6 +2,7 @@ import { useContext } from "react";
 import "./Auth.css";
 import { AppContext } from "../../App";
 import { logIn, logOut } from "../../firebase";
+import { Link } from "react-router-dom";
 
 export default function Auth() {
   const { user } = useContext(AppContext);
@@ -16,7 +17,8 @@ export default function Auth() {
   if (user) {
     output = (
       <span>
-        {user.displayName}
+        <Link to="/orders">{user.displayName}</Link>
+        {/* {user.displayName} */}
         <button onClick={logOut}>Sign out</button>
       </span>
     );
