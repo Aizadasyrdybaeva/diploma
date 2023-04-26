@@ -6,7 +6,7 @@ import AddToCart from "../AddToCart/AddToCart";
 
 export default function ProductList({ category }) {
   const { products } = useContext(AppContext);
-
+  console.log(products, category);
   const output = products
     .filter((product) => product.category === category.id)
     .map((product) => (
