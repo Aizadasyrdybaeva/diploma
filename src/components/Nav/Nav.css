@@ -24,14 +24,7 @@
   font-weight: 200;
 }
 
-Nav ul li a {
-  display: block;
-  text-decoration: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-  background-color: white;
-  color: rgb(59, 27, 201);
-}
+
 nav a:hover {
   background-color: rgb(123, 134, 236);
   color: white;

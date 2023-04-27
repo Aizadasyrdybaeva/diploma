@@ -16,6 +16,8 @@ import Product from "./pages/Product";
 import ThankYou from "./pages/ThankYou";
 import Orders from "./pages/Orders.jsx";
 
+
+
 export const AppContext = createContext({
   categories: [],
   products: [],
