@@ -5,7 +5,6 @@
   flex-wrap: wrap;
 }
 .Layout header {
-  background-color: ;
   flex-basis: 100%;
   flex-grow: 0;
   flex-shrink: 0;
@@ -15,14 +14,17 @@
 }
 
 .Layout aside {
-  background-color: ;
   flex: 20% 0 0;
 }
 .Layout main {
   flex: 80% 1 1;
-  background-color: ;
 }
 .Layout footer {
   flex: 100% 0 0;
-  background-color: ;
+}
+.Layout .Ornament {
+  background-image: url(https://abrakadabra.fun/uploads/posts/2022-03/1646686478_2-abrakadabra-fun-p-krasivii-ornament-na-prozrachnom-fone-2.png);
+  height: 100px;
+  width: 100%;
+  background-size: contain;
 }

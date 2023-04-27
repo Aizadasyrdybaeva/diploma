@@ -8,6 +8,7 @@ import Auth from "..//Auth/Auth"
 export default function Layout(props) {
   return (
     <div className="Layout">
+      <div className="Ornament"></div>
       <header>
         <Logo />
         <Nav />

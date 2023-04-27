@@ -7,7 +7,7 @@
 }
 
 .Nav {
-  background-color: white;
+  background-color:  rgb(240, 233, 233);;
   padding: 10px 0;
   display: flex;
   justify-content: center;
@@ -19,8 +19,8 @@
   list-style-type: none;
   display: flex;
   justify-content: space-around;
-  border-bottom: 1px solid #fafafa;
-  font-size: 16px;
+  
+  font-size: 14px;
   font-weight: 200;
 }
 
@@ -28,5 +28,6 @@
 nav a:hover {
   background-color: rgb(123, 134, 236);
   color: white;
+  border-radius: 15px 55px;
 }
 
