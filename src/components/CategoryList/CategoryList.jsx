@@ -1,9 +1,9 @@
-import { getDocs } from "firebase/firestore";
-import { useContext, useEffect, useState } from "react";
+
+import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { AppContext } from "../../App";
-import { categoryCollection } from "../../firebase";
 import "./CategoryList.css";
+import AddCategory from "../AddCategory/AddCategory";
 
 export default function CategoryList() {
   //
@@ -19,6 +19,7 @@ export default function CategoryList() {
     <div className="CategoryList">
       <ul className="CategoryList-panel">Goods</ul>
       <ul>{output}</ul>
+      <AddCategory />
     </div>
   );
 }
