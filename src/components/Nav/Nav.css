@@ -7,11 +7,13 @@
 }
 
 .Nav {
-  background-color:  rgb(240, 233, 233);;
+
+  background-image: url();
   padding: 10px 0;
   display: flex;
   justify-content: center;
   align-items: baseline;
+ 
 }
 .Nav ul {
   padding: 0;
@@ -21,7 +23,7 @@
   justify-content: space-around;
   
   font-size: 14px;
-  font-weight: 200;
+  font-weight: 150;
 }
 
 

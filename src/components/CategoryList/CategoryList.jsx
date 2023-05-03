@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import { AppContext } from "../../App";
 import "./CategoryList.css";
 import AddCategory from "../AddCategory/AddCategory";
+import DeleteCategory from "../DeleteCategory/DeleteCategory";
 
 export default function CategoryList() {
   //
@@ -13,6 +14,7 @@ export default function CategoryList() {
     
     <li key={category.id}>
       <NavLink to={"/category/" + category.path}>{category.name}</NavLink>
+      <DeleteCategory category={category} />
     </li>
   ));
   return (
