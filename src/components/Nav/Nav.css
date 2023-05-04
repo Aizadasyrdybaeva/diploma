@@ -17,7 +17,7 @@ nav ul li:hover {
 }
 
 .Nav a{
-  color: rgb(2, 2, 2);
+  color: #086CA2;
   font-weight: 900;
   
 }
@@ -38,5 +38,26 @@ nav ul li:hover {
   background-blend-mode: multiply;
 }
  
+.Nav::after{
+  content: 'Original gifts for your loved ones!';
+  position: absolute;
+  top: 60px;
+  left:50px;
+  width: 300px;
+  font-size: 20px;
+  font-weight: 600;
+  color:#FF8B00;
+}
+
+.Nav::before{
+  content: 'The biggest gift is in the smallest box!';
+  position: absolute;
+  top: 100px;
+  left:50px;
+  width: 300px;
+  font-size: 10px;
+  font-weight: 600;
+  color:#FFA840;
+}
 
 
