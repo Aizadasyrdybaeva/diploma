@@ -15,6 +15,9 @@ import Product from "./pages/Product";
 import ThankYou from "./pages/ThankYou";
 import Orders from "./pages/Orders.jsx";
 
+
+
+
 export const AppContext = createContext({
   categories: [],
   products: [],
@@ -38,6 +41,7 @@ export default function App() {
 
   const [user, setUser] = useState(null);
 
+  
   useEffect(() => {
     localStorage.setItem("cart", JSON.stringify(cart));
   }, [cart]);
@@ -54,7 +58,7 @@ export default function App() {
       setUser(user);
     });
   }, []);
-
+  
   return (
     <div className="App">
       <AppContext.Provider
@@ -74,5 +78,7 @@ export default function App() {
         </Layout>
       </AppContext.Provider>
     </div>
+   
   );
 }
+

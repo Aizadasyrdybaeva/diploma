@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Nav() {
   return (
+    
     <nav className="Nav">
       <ul>
         <li>
@@ -17,11 +18,9 @@ export default function Nav() {
 
         
         <li>
-          <NavLink to="/wholesale">Wholesale</NavLink>
+          <NavLink to="/wholesale">Category</NavLink>
         </li>
-        <li>
-          <NavLink to="/delivery">Delivery</NavLink>
-        </li>
+        
       </ul>
     </nav>
   );

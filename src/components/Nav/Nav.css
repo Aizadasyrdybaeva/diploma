@@ -1,35 +1,42 @@
-
-
-.Nav ul li a {
-  color: rgb(88, 78, 76);
-  padding: 10px;
-  display: block;
-}
-
-.Nav {
-
-  background-image: url();
-  padding: 10px 0;
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
- 
-}
-.Nav ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-  
+.Nav ul li {
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+  transition: opacity 500ms ease;
   font-size: 14px;
-  font-weight: 150;
+  
 }
 
-
-nav a:hover {
-  background-color: rgb(203, 203, 207);
-  color: white;
-  border-radius: 15px 55px;
+.Nav ul {
+  float: right;
+  list-style: none;
 }
+
+nav ul li:hover {
+  opacity: 0.5;
+}
+
+.Nav a{
+  color: rgb(2, 2, 2);
+  font-weight: 900;
+  
+}
+
+.Nav{
+  background-image: url("https://cdn.pixabay.com/photo/2014/11/27/22/44/gift-548290_960_720.jpg");
+
+  min-height: 380px;
+
+  /* Центр и масштаб изображения */
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Необходимые для позиционирования навигации */
+  position: relative;
+  min-height:100%;
+  background-blend-mode: multiply;
+}
+ 
+
 
