@@ -1,12 +1,12 @@
-button{
+.AddToCart button{
   
   font-size: 8px;
-  background: #ff8b00;
+  background: #086ca2;
   width: 50px;
   height: 15px;
   text-align: center;
   
-  border-color: #ff8b00;
+  
  float:right;
  
 }
