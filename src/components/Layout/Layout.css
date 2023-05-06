@@ -5,6 +5,7 @@
   flex-wrap: wrap;
 }
 .Layout header {
+  padding-top: 15px;
   flex-basis: 100%;
   height: 200px;
   
@@ -16,6 +17,11 @@
 }
 .Layout main {
   flex: 80% 1 1;
+
+}
+.Layout main h1{
+  color: #086ca2;
+  font-size: 16px;
 }
 .Layout footer {
   flex: 100% 0 0;

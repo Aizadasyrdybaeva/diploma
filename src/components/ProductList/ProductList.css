@@ -1,23 +1,46 @@
 .ProductList {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 14px;
+  
 }
+.ProductList .Product{
+  width: 30%;
+  margin-bottom: 50px;
+  background-color: #f5f5f5;
+  overflow: hidden;
 
-.ProductList .Product {
-  display: flex;
-  flex-direction: column;
-  width: calc((100% - 36px) / 3);
-  margin-right: 15px;
-  margin-bottom: 20px;
-  border: 1px solid #000;
+  
+  
 }
 .ProductList .Product:nth-child(3n) {
   margin-right: 0;
+ 
 }
 .ProductList .Product img {
   width: 100%;
   display: block;
+  border-radius: 10px 10px 0 0;
+  transition: transform 500ms ease;
   
+}
+.ProductList Link{
+  margin: 10px 20px;
+  color: #fff;
+}
+
+.ProductList .Product img:hover{
+  transform: scale(1.05);
+
+}
+
+.ProductList span{
+  color: #ff8b00;
+  display: block;
+  font-size: 12px;
+  margin-left: 10px;
 }
 
 

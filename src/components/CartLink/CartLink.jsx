@@ -11,7 +11,7 @@ export default function CartLink() {
   return (
     <div className="CartLink">
       <Link to="/cart">
-        <img src="../icon.png"></img>({total})
+         <img src="../icon.png"></img>({total})
       </Link>
     </div>
   );
