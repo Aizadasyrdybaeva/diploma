@@ -19,7 +19,7 @@ export default function CategoryList() {
   ));
   return (
     <div className="CategoryList">
-      <ul className="CategoryList-panel">Goods</ul>
+     
       <ul>{output}</ul>
       <AddCategory />
     </div>

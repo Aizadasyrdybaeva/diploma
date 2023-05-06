@@ -20,9 +20,5 @@
 .Layout footer {
   flex: 100% 0 0;
 }
-.Layout .Ornament {
-  background-image: url();
-  width: 100%;
-  background-size: contain;
 
-}
+

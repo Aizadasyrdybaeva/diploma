@@ -24,8 +24,8 @@ nav ul li:hover {
 
 .Nav{
   background-image: url("https://cdn.pixabay.com/photo/2014/11/27/22/44/gift-548290_960_720.jpg");
-
   min-height: 380px;
+ 
 
   /* Центр и масштаб изображения */
   background-position: center ;
