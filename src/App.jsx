@@ -64,6 +64,7 @@ export default function App() {
       <AppContext.Provider
         value={{ categories, products, cart, setCart, user, orders }}
       >
+        
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />

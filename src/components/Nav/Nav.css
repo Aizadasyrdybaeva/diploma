@@ -1,9 +1,9 @@
 .Nav ul li {
   display: inline;
-  margin-left: 25px;
+  margin-left: 20px;
   cursor: pointer;
   transition: opacity 500ms ease;
-  font-size: 14px;
+  font-size: 12px;
   
 }
 
@@ -23,10 +23,9 @@ nav ul li:hover {
 }
 
 .Nav{
-  background-image: url("https://cdn.pixabay.com/photo/2014/11/27/22/44/gift-548290_960_720.jpg");
-  min-height: 380px;
- 
-
+  margin: 10px 0;
+  background-image: url("../../img/Logo.jpg");
+  
   /* Центр и масштаб изображения */
   background-position: center ;
   background-repeat: no-repeat;
@@ -60,4 +59,7 @@ nav ul li:hover {
   color:#c13b78;
 }
 
+.presentation{
 
+  
+}
