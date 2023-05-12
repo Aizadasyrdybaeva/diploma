@@ -34,6 +34,7 @@
 
 .ProductList .Product img:hover{
   transform: scale(1.05);
+  
 
 }
 
@@ -52,7 +53,7 @@
   border: #c13b78;
   border-radius: 90%;
   padding: 5px ;
-  color: 
+
 }
 
 
