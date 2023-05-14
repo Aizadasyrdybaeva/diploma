@@ -7,12 +7,11 @@ export default function Footer() {
     <div class="example2">
       <div class="row">
         <div class="col-6">
-      <div>
-        <img src={footer} alt="footer" class="smile1"></img>
-        <img src={footer1} alt="footer1" class="smile2"></img>
-      </div>
-      <div></div>
-      </div>
+          <div>
+            <img src={footer} alt="footer" class="smile1"></img>
+            <img src={footer1} alt="footer1" class="smile2"></img>
+          </div>
+        </div>
       </div>
     </div>
   );
