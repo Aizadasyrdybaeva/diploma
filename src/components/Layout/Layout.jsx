@@ -4,6 +4,7 @@ import Logo from "../Logo/Logo";
 import Nav from "../Nav/Nav";
 import "./Layout.css";
 import Auth from "..//Auth/Auth";
+import Footer from "../Footer/Footer";
 
 export default function Layout(props) {
   return (
@@ -20,7 +21,10 @@ export default function Layout(props) {
         <CategoryList />
       </aside>
       <main>{props.children}</main>
-      <footer>FOOTER</footer>
+    
+   
+      
+       <Footer />
     </div>
   );
 }
