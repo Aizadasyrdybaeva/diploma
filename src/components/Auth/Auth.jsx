@@ -3,6 +3,7 @@ import "./Auth.css";
 import { AppContext } from "../../App";
 import { logIn, logOut } from "../../firebase";
 import { Link } from "react-router-dom";
+import user1 from "../../assets/user1.png";
 
 
 
@@ -12,7 +13,7 @@ export default function Auth() {
   // показывается гостю
   let output = (
     <span>
-      <button onClick={logIn} > </button>
+      <button onClick={logIn} > <img src={user1}></img> </button>
     </span>
   );
   

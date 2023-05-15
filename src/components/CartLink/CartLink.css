@@ -1,7 +1,20 @@
 .CartLink img{
- display:block;
- width:5%;
-
+  
+  width: 100%;
+  border-radius: 50%;
  
-}
+  
+ }
 
+.CartLink span {
+  width: 200px;
+  height: 200px;
+}
+.CartLink button{
+ 
+ background-size: contain;
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ border:0px solid white;
+}
