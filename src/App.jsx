@@ -14,6 +14,8 @@ import NotFound from "./pages/NotFound";
 import Product from "./pages/Product";
 import ThankYou from "./pages/ThankYou";
 import Orders from "./pages/Orders.jsx";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 
 
@@ -69,7 +71,8 @@ export default function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<h2>About</h2>} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/category/:path" element={<Category />} />
             <Route path="/product/:path" element={<Product />} />
             <Route path="/cart" element={<Cart />} />
