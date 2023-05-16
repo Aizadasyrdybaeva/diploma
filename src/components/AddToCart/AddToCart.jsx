@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import "./AddToCart.css";
 import { AppContext } from "../../App";
+//import imgcart from "../../assets/cart.png"
 
 export default function AddToCart({ product }) {
   const { cart, setCart } = useContext(AppContext);
@@ -15,7 +16,9 @@ export default function AddToCart({ product }) {
 
   return (
     <div className="AddToCart">
-      <button onClick={onAddToCart}>buy ({currentCount})</button>
+      <button onClick={onAddToCart} className="CartButton"></button>
+  
+      ({currentCount})
     </div>
   ) 
 }

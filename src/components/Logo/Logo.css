@@ -6,7 +6,7 @@
 }
 .Logo img{
   width: 200px;
-  height: 200px;
+  height: 150px;
   filter: saturate(200%);
   border-radius: 20%;
 }
@@ -15,12 +15,14 @@
   height: 350px;
 }
 * *, *::before, *::after { 
-  animation-play-state: running !important;}
+  animation-play-state: running !important;
+ }
   .stage {
-    height:150px;
+    height:250px;
     width: 350px;
-    margin-top: 300px;
+    margin-top: 200px;
     margin-left: 60px;
+  
     position: absolute;
     top: 0;
     right: 0;
@@ -42,10 +44,10 @@
   }
   
   .layer:after {
-    font: 60px/0.65 "Pacifico", "Kaushan Script", Futura, "Roboto", "Trebuchet MS", Helvetica, sans-serif;
-    content: "A gift from the heart!";
+    font: 50px/0.65 "Pacifico", "Kaushan Script", Futura, "Roboto", "Trebuchet MS", Helvetica, sans-serif;
+    content: "Big gift in a small box!";
     
-    white-space: normal;
+    white-space: pre;
     height: 100%;
     width: 100%;
     position: absolute;

@@ -2,8 +2,21 @@
 .CartList {
   display: flex;
   align-items: center;
+ display: inline;
+  margin: 30px;
 }
 
 .CartList .CartItem img {
-  width: 80px;
+  width: 150px;
+  
+  margin: 20px;
+}
+.CartList .CartItem a{
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+
+}
+.CartList .CartItem input{
+  width: 50px;
 }

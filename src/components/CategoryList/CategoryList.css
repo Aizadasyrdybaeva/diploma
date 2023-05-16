@@ -9,7 +9,7 @@
 
 .CategoryList a {
 
-  color: #c13b78;
+  color:#086ca2;
   padding: 5px;
   text-decoration: none;
   font-weight: 600;
@@ -19,6 +19,6 @@
 }
 
 .CategoryList li {
-  border: 1px solid #086ca2;
+  border: 1px solid ;
 }
 
