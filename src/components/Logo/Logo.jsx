@@ -9,29 +9,7 @@ export default function Logo() {
       <NavLink to="/">
         <img src={logo} alt="logo"></img> 
       </NavLink>
-      <div class="stage">
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-  <div class="layer"></div>
-</div>
-<script>window.setTimeout = null;</script>
+     
 
       </div>
    
