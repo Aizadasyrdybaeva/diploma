@@ -18,7 +18,7 @@ export default function AddToCart({ product }) {
     <div className="AddToCart">
       <button onClick={onAddToCart} className="CartButton"></button>
   
-      ({currentCount})
+      
     </div>
   ) 
 }

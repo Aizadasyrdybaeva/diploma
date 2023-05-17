@@ -15,34 +15,29 @@
   height: 350px;
 }
 
-@-webkit-keyframes scroll {
-  0% {
-      -webkit-transform: translate(0, 0);
-      transform: translate(0, 0);
+.Logo p {
+  font-size: 40px;
+  font-weight:bolder;
+  cursor: pointer;
+  text-shadow: 1px 1px 0 hsl(256, 93%, 54%),
+               2px 2px 0 hsl(256, 95%, 63%),
+               3px 3px 0 hsl(256, 93%, 73%),
+               4px 4px 0 hsl(256, 88%, 61%),
+               5px 5px 0 hsl(256, 87%, 70%),
+               6px 6px 0 hsl(256, 94%, 69%),
+               7px 7px 0 hsl(256, 92%, 75%),
+               8px 8px 0 hsl(256, 65%, 92%);
+  color: hsl(246, 93%, 49%);
+  transition: all 1s;
   }
-  100% {
-      -webkit-transform: translate(-100%, 0);
-      transform: translate(-100%, 0)
-  }
-}
-
-@-moz-keyframes scroll {
-  0% {
-      -moz-transform: translate(0, 0);
-      transform: translate(0, 0);
-  }
-  100% {
-      -moz-transform: translate(-100%, 0);
-      transform: translate(-100%, 0)
-  }
-}
-
-@keyframes scroll {
-  0% {
-      transform: translate(0, 0);
-  }
-  100% {
-      transform: translate(-100%, 0)
-  }
-}
-
+  .Logo p:hover {
+    text-shadow: 1px -1px 0 hsl(226, 90%, 28%),
+               2px -2px 0 hsl(253, 93%, 47%),
+               3px -3px 0 hsl(280,100%,60%),
+               4px -4px 0 hsl(280,100%,60%),
+               5px -5px 0 hsl(270,100%,75%),
+               6px -6px 0 hsl(270,100%,80%),
+               7px -7px 0 hsl(260,100%,85%),
+               8px -8px 0 hsl(260,100%,90%);
+    color: hsl(300,100%,30%);
+    }
