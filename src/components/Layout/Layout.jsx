@@ -17,6 +17,7 @@ export default function Layout(props) {
           <Auth />
         </div>
       </header>
+    
       <aside>
         <CategoryList />
       </aside>

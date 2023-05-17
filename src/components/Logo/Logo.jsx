@@ -9,7 +9,8 @@ export default function Logo() {
       <NavLink to="/">
         <img src={logo} alt="logo"></img> 
       </NavLink>
-     
+      
+      
 
       </div>
    
