@@ -16,7 +16,7 @@ export default function AddToCart({ product }) {
 
   return (
     <div className="AddToCart">
-      <button onClick={onAddToCart} className="CartButton"></button>
+      <button onClick={onAddToCart} className="CartButton">BUY</button>
   
       
     </div>
