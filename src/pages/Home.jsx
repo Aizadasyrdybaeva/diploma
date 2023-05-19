@@ -6,12 +6,13 @@ export default function Home() {
       <h1>Welcome to our "For You" shop!</h1>
 
       <iframe
-        width="500"
-        height="300"
+        width="600"
+        height="400"
         src={video1}
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
+        loading="eager"
         
       ></iframe>
 
