@@ -5,8 +5,8 @@
   color: #086CA2;
 }
 .Logo img{
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   filter: saturate(200%);
   border-radius: 20%;
 }
