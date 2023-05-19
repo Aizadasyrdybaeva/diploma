@@ -8,6 +8,9 @@ export default function Home(){
         right time. Welcome to us - to the world of online store "For you"!
         Today it is 50.000 products in 400 product categories
       </p>
+      <video>
+  <source src="" />
+</video>
      
       
 
