@@ -2,12 +2,12 @@
 .CartList {
   display: flex;
   align-items: center;
- display: inline;
+  display: inline;
   margin: 30px;
 }
 
 .CartList .CartItem img {
-  width: 150px;
+  width: 200px;
   
   margin: 20px;
 }

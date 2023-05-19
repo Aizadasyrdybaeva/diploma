@@ -10,7 +10,7 @@ export default function Logo() {
         <img src={logo} alt="logo"></img> 
       </NavLink>
       
-      <p >Big gift in a small box!</p>
+      <p>Big gift in a small box!</p>
 
       </div>
    

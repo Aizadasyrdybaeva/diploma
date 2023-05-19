@@ -5,8 +5,8 @@ export default function About() {
     <div className="About">
       <h1>Welcome to our "For You" souvenir shop!!! </h1>
       <p></p>
-      <img src={ss} alt="ss"></img>
       
+
     </div>
   );
 }
