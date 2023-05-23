@@ -18,17 +18,39 @@ nav ul li:hover {
   
 }
 
-.Nav a{
-  color: #086CA2;
-  font-weight: 600;
-  
-}
-
 .Nav{
   /* Необходимые для позиционирования навигации */
   position: relative;
   background-blend-mode: multiply;
 }
+a {
+  color: hsl(209, 90%, 27%);
+  position: relative;
+  text-decoration: none;
+}
 
+a::before {
+  background: hsl(0, 0%, 0%);
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+  z-index: -1;
+}
 
+a:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
 
+/* Presentational styles */
+body {
+  display: grid;
+  font-family: system-ui, sans;
+  font-size: 3.5rem;
+  font-weight: 800;
+  height: 100vh;
+  place-items: center;
+}

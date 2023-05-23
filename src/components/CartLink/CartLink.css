@@ -1,11 +1,8 @@
 .CartLink img{
-  
+  cursor: pointer;
   width: 100%;
   border-radius: 50%;
- 
-  
  }
-
 .CartLink span {
   width: 200px;
   height: 200px;

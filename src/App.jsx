@@ -20,6 +20,7 @@ import Contact from "./pages/Contact";
 
 
 
+
 export const AppContext = createContext({
   categories: [],
   products: [],

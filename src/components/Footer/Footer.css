@@ -1,45 +1,93 @@
-
-
-
-
-div.example2 img {
-  position:absolute; 
-  /*За счет transition, добиваемся плавности эффекта*/
-  -moz-transition: all 1s ease-in-out;
-  -webkit-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-  width: 50px;
-  height: 50px;
-  margin-top: 30px;
-  
+.footer {
+  box-shadow: 0 0 10px #cd698b;
+  padding: 40px 10px;
+  background-color: rgb(10, 6, 34);
+  color: #ffffff;
+  margin-top: 1rem;
 }
-.example2 img.smile1 {
-  opacity:0;
-  filter:alpha(opacity=0);
-}
-.example2:hover img.smile1 {
-  opacity:1;
-  filter:alpha(opacity=100);
-}
-.example2:hover img.smile2, .example2 img.smile2:hover {
-  opacity:0;
-  filter:alpha(opacity=0);
-}
-.row {
+
+.footer-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.footer-column {
+  flex-basis: 25%;
+  margin-bottom: 40px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-heading {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.network-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.network-icons .bi {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+}
+
+.footer-list li:hover {
+  cursor: pointer;
+  color: #28b3f3;
+}
+
+.footer-column a:hover {
+  color: #28b3f3;
+}
+
+.network-icons .bi:hover {
+  cursor: pointer;
+  color: #28b3f3;
+}
+
+.footer .info {
+  display: flex;
+  max-width: 500px;
   align-items: center;
-  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-[class^="col"] {
-  padding: 0 10px;
+.footer .info strong {
+  margin-right: 30px;
 }
 
-.col-6 {
-  flex-basis: 50%;
-  flex-grow: 0;
-  flex-shrink: 0;
+.footer .info p {
+  margin: 0;
+  font-size: 20px;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-column {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer-column {
+    flex-basis: 100%;
+  }
 }
