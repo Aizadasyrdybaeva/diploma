@@ -1,5 +1,5 @@
 .Layout {
-  max-width: 889px;
+  max-width: 1000px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -28,7 +28,7 @@
 }
 .Layout main h1 {
   color: #086ca2;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 900;
   margin-top: 50px;
 }
@@ -40,5 +40,5 @@
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  font-size: 12px;
+  font-size: 18px;
 }
