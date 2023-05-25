@@ -6,7 +6,8 @@
 .CartLink span {
   width: 200px;
   height: 200px;
-  padding: 20px;
+  padding: 5px;
+;
 }
 .CartLink button{
  
@@ -16,4 +17,8 @@
  border-radius: 50%;
  border:0px solid white;
  
+}
+.CartLink a{
+  margin:  10px;
+  font-size: 12px
 }
