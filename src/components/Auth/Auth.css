@@ -1,6 +1,9 @@
-span {
+.Auth span {
    width: 200px;
-   height: 200px;
+  
+  
+   
+
 }
 
 .Auth button{
@@ -11,8 +14,12 @@ span {
   border:0px solid white;
 }
 .Auth img{
-  
   width: 60%;
-  
  }
+
+.Auth a{
+  font-size: 12px;
+
+ }
+ 
  
