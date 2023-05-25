@@ -30,7 +30,7 @@ export default function OrderForm() {
   }
 
   if (Object.keys(cart).length === 0) {
-    return "Your cart is empty.nbmhgjhgjyuiuiuyiytut ";
+    return "Your cart is  ";
   }
 
   if (!user) {
