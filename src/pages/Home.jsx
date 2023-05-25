@@ -1,4 +1,5 @@
 import video1 from "../assets/shariki.mp4";
+import "./Pages.css";
 
 export default function Home() {
   return (
