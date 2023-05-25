@@ -1,8 +1,5 @@
 
-.CartList {
- 
-  font-size: 12px;
-}
+
 
 .CartList .CartItem img {
   width: 250px;
@@ -47,6 +44,7 @@
   width: 300px;
   padding: 10px;
   margin: 10px;
+  
   
 
 

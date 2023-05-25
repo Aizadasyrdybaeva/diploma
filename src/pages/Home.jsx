@@ -6,7 +6,7 @@ export default function Home() {
       <h1>Welcome to our "For You" shop!</h1>
 
       <iframe
-        width="600"
+        width="700"
         height="400"
         src={video1}
         frameborder="0"
