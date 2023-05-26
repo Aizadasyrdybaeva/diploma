@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home";
-import Category from "./pages/Category";
+
 import { createContext, useEffect, useState } from "react";
 import {
   onAuthChange,
@@ -16,6 +16,7 @@ import ThankYou from "./pages/ThankYou";
 import Orders from "./pages/Orders.jsx";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Category from "./pages/Category"
 
 
 
@@ -74,6 +75,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/category/:path" element={<Category />} />
             <Route path="/product/:path" element={<Product />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/thank-you" element={<ThankYou />} />
